@@ -1,0 +1,221 @@
+body{
+    font-family: Trebuchet MS, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+   width: 100%;
+}
+.login-main{
+    height: 100vh;
+    width: 100%;
+    /* background: rgb(116, 192, 247); */
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Lmain{
+        background-color: #ffffff;
+        height: 70vmin;
+        width: 100vmin;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+        color: black;
+        border-radius: 15px;
+      }
+
+      .parent {
+        background: rgb(0, 45, 78);
+        height: 70vmin;
+        width: 50vmin;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+        color: black;
+        border-radius: 15px 0 0 15px;
+      }
+      
+
+.Login {
+    background-color:transparent;
+    height: 70vmin;
+    width: 50vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+  }
+
+
+  .L_details {
+    background-color: transparent;
+    min-height: 30vmin;
+    min-width: 30vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: calc(10px + 2vmin);
+    color: black;
+  }
+
+input{ 
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color:black;
+   border:2px solid rgb(231, 231, 231);
+    display: block;
+    width:35vmin;
+    outline:none;
+    background: white;
+    height: 6vmin;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0 0px 0 10px;
+   }
+
+input:focus{
+    border:2px solid rgb(0, 45, 78);
+}
+input:focus::placeholder{
+color: transparent;    
+}
+
+
+
+button{
+    width:  35vmin;
+    background-color:rgb(0, 45, 78);
+    color: white;
+    border: none;
+    height: 6vmin;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: Trebuchet MS, sans-serif;
+   
+}
+
+button:hover{
+    background-color: rgb(0, 92, 157);
+}
+
+
+
+a{
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 15px; 
+}
+
+.fp{
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 15px; 
+}
+
+.fp{
+
+    background-color: transparent;
+    width: 37vmin;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-popup{
+    position: absolute;
+    height: 14.3vmin;
+    width: 35vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    color: rgb(0, 143, 12);
+    transform: scale(1);
+    transform: 1s;
+    border-radius: 5px;
+    font-size:5px ;
+    /* border: solid red 2px; */
+
+}
+
+.hide{
+    position: absolute;
+    transform: scale(0);
+}
+
+.in-pop{ 
+
+
+   border:3px solid rgb(255, 0, 0);
+    display: block;
+    width:35vmin;
+    outline:none;
+    background: transparent;
+    height: 49px;
+    border-radius: 5px;
+    padding: 0 0px 0 10px;
+   }
+   .errmsg{
+    color: rgb(255, 45, 45);
+    font-size: 15px;
+    text-align: right;
+   }
+
+.Lo-main{
+    display: flex;
+    background: rgb(116, 192, 247);
+  
+    width: 100%;
+    height: 100vh;
+}
+
+/* input[type="checkbox"] {
+height: 25px;
+  background-color: CanvasText;
+  border-radius: 50%;
+}
+
+input[type="checkbox"]::before {
+ background-color: CanvasText;
+  } */
+
+input[type="checkbox"]{
+    background: red;
+}
+
+
+
+.Toastify__toast-icon {
+background: none;
+
+}
+
+.Toastify__toast-body {
+background: none;
+font-family: Trebuchet MS, sans-serif;
+color: rgb(255, 48, 48);
+font-size: 15px;
+width: 100%;
+}
+
+.Toastify__close-button {
+    width: 50px;
+    transform: scale(1);
+    transition-duration: 1s;
+}
+
+.Toastify__close-button:hover {
+    transform: scale(1.5);
+    background: none;
+}

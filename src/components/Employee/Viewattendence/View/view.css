@@ -1,0 +1,22 @@
+.select{
+    width: 250px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 140px;
+    border: solid 3px black;
+    border-radius: 10px;
+    background-color: rgb(237, 137, 229);
+    height: 400px;
+        
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.cd{
+    text-align: center;
+    margin: 50px;
+    background-color: aqua;
+    height: 50px; 
+}

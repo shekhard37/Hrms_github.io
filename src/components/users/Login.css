@@ -1,0 +1,21 @@
+.form-control{
+    border: 2px solid black;
+    box-shadow:blue;
+}
+.log_in{
+    background: url("https://c8.alamy.com/comp/KPA0RB/hr-manager-pushing-hrms-systems-onscreen-KPA0RB.jpg");
+    width: 100%;
+    height: 695px;
+}
+.row{
+    width: auto;
+}
+.type{
+    background: url("https://us.123rf.com/450wm/murrstock/murrstock1905/murrstock190500061/122284268-hr-human-resources-management-recruitment-talent-concept-.jpg?ver=6");
+}
+.text-center {
+      color:red;
+ }
+ .form-label{
+    color:cyan;
+ }

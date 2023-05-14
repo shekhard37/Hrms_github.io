@@ -1,0 +1,21 @@
+.hr-att{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    flex-direction: column;
+    width: 98%;
+    height: 98%;
+    border-radius: 15px;
+}
+
+.hr-att2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 145, 0);
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    border-radius: 15px;
+}

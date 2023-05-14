@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "fullName": "Shubham Sandilya",
+      "email": "Shubham@email.com",
+      "phoneNumber": "Medical issue",
+      "status": "Reject"
+      
+    },
+    {
+      "id": 2,
+      "fullName": "Md Maqsood",
+      "email": "Maqsood@email.com",
+      "phoneNumber": "Paid Leave",
+      "status": "Approved"
+    },
+    {
+      "id": 3,
+      "fullName": "Shekhar",
+      "email": "Shekhar@email.com",
+      "phoneNumber": "Official leave",
+      "status": "Reject"
+    },
+    {
+      "id": 4,
+      "fullName": "Vineet",
+      "email": "Vineet@email.com",
+      "phoneNumber": "Medical issue",
+      "status": "Approved"
+    },
+    {
+      "id": 5,
+      "fullName": "Rahul",
+      "email": "Rahul@email.com",
+      "phoneNumber": "Paid Leave",
+      "status": "Reject"
+    }
+  ]

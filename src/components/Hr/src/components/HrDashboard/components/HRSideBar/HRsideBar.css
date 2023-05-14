@@ -1,0 +1,120 @@
+.hrNav-main{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 30vmin;
+}
+
+
+.sb:hover{
+    background: linear-gradient(90deg, rgb(52, 171, 255) 15%, rgb(0, 92, 157) 15%);
+    font-weight: bold;
+    text-align:left;
+    padding-left: 60px;
+}
+
+
+.box{
+    height:90px;
+    width: 20px;
+    background-color: antiquewhite;    
+}
+
+.hrnav-button{
+    background-color: transparent;
+    width: 30vmin;
+    border-radius: 0 25px  25px 0;
+    height: 90px;
+}
+
+.hrnav-button:hover{
+    background: linear-gradient(90deg, rgb(52, 171, 255) 15%, rgb(0, 92, 157) 15%);
+    font-weight: bold;
+    text-align:left;
+    padding-left: 60px;
+}
+
+.hrnav-button.active{
+    background: linear-gradient(90deg, rgb(52, 171, 255) 15%, rgb(0, 92, 157) 15%);
+    font-weight: bold;
+    text-align:left;
+    padding-left: 60px;
+}
+
+
+.box{
+    height:90px;
+    width: 20px;
+    background-color: antiquewhite;    
+}
+
+.sidebar1{
+    color:white;
+    text-decoration: none;
+    background: transparent;
+    height: 90px;
+    width: 30vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 20px 20px 0;
+
+  }
+
+.sidebar1:hover{
+    background: linear-gradient(90deg, rgb(52, 171, 255) 15%, rgb(0, 92, 157) 15%);
+}
+
+.sidebar1.active{
+    background: linear-gradient(90deg, rgb(255, 145, 0) 15%, white 15%);
+    color: rgb(0, 45, 78);
+    font-weight: bold;
+}
+
+.signout{
+    background: transparent;
+    width: 30vmin;
+    height:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    flex-direction: row;
+    
+}
+
+.signout2{
+    background: transparent;
+    width: 18vmin;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 8px ;
+    transform: scale(1);
+    transition-duration: 0.5s;
+}
+.signout2:hover{
+    transform: scale(0.9);
+    }
+.signout3{
+    background: transparent;
+    width: 12vmin;
+    height: 40px;
+    display: flex;
+    font-size: 16px;
+    color: rgb(255, 145, 0);
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid;
+}
+
+.singout-logo{
+    height: 4vmin;
+}

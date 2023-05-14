@@ -1,0 +1,67 @@
+.hr-leave-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background:transparent ;
+}
+
+.hr-leave-main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 600px;
+    background: white;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.hr-leave-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    height: 300px;
+    background: transparent;
+    flex-direction: row;
+}
+.leaves-type{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(180deg, rgb(0, 45, 78) 30%,rgb(226, 226, 226) 10%);
+    flex-direction: column;
+    color: white;
+    border-radius: 15px;
+    transform: scale(1);
+}
+
+.leaves-type:hover{
+    transform: scale(1.05);
+    background: linear-gradient(180deg, rgb(0, 45, 78) 30%,rgb(197, 197, 197) 10%);
+
+}
+
+.hr-leave-apply{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+    background: transparent;
+    flex-direction: column;
+}
+
+.leave-info{
+    width: 100%;
+    height: 150px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(0, 45, 78);
+}

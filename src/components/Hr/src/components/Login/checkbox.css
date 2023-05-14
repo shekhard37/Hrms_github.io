@@ -1,0 +1,72 @@
+/* $border-color: #FF4040;
+$checkbox-size: 1rem;
+$checkedbox-size: 1.2rem;
+
+$dark:   #15171E;
+$white:  mix($dark, white, 20%); */
+
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+} */
+/* 
+.checkbox {
+  margin: 15px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+label {
+  font-family: Helvetica; 
+  letter-spacing: 1px;
+  font-variant: small-caps;
+   text-transform: uppercase;
+}
+
+
+
+
+.checkbox-flip, .checkbox-pop, .checkbox-pull, .checkbox-spin {
+    display:none;
+}
+
+.checkbox-flip + label span, 
+.checkbox-pop + label span, 
+.checkbox-pull + label span,
+.checkbox-spin + label span{
+    display:inline-block;
+    width:25px;
+    height:19px;
+    margin: 0 5px -4px 0; 
+    &:before,
+    &:after {
+      @include transition(all .3s ease-in-out);
+      content: "";
+      position: absolute;
+      z-index: 1;
+      width: $checkbox-size;
+      height: $checkbox-size;
+      background: transparent;
+      border: 2px solid $border-color; 
+    }
+     &:after {
+      z-index: 0;
+      border: none;
+    }
+}
+
+.checkbox-flip:checked + label span {
+     &:before {
+      @include transform(rotateY(180deg));
+      background: $border-color;
+    }
+}
+
+
+
+ */

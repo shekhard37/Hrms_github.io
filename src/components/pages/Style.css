@@ -1,0 +1,73 @@
+.mainx{
+    
+
+    background:transparent;
+    display:flex;
+    align-items:center;
+    justify-content:top;
+    flex-direction:column;
+    padding-top:60px;
+    position:relative;
+    
+    
+    }
+    
+  
+    
+        
+    .main11{
+        display:flex;
+        background-color:white;
+        width: 1350px;
+        height: 400px;
+      border-radius: 10px;
+      justify-content:space-between;
+      align-items:center;
+      flex-direction:column;
+         padding-left:30px;
+        padding-right:30px;
+        padding-top:30px;
+        padding-bottom:30px;
+       font-family: Trebuchet MS, sans-serif;
+        }
+    
+    .main121{
+        display:flex;
+        background-color:transparent;
+        width: 1350px;
+        height: 350px;
+      border-radius: 10px;
+      justify-content:left;
+      
+      flex-direction:column;
+         padding-left:30px;
+        padding-right:30px;
+        padding-top:30px;
+        padding-bottom:30px;
+       font-family: Trebuchet MS, sans-serif;
+       font-size:18px;
+        }
+   
+    .headc{
+        display:flex;
+        background-color:transparent;
+        width: 300px;
+        height: 120px;
+        justify-content:top;
+        align-items: center;
+        flex-direction:column;
+        padding-left: 16px;
+      padding-right: 16px;
+      color:white;
+      font-family: Trebuchet MS, sans-serif;
+    }
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+      font-size: 1rem;
+      line-height: 2.15;
+      padding-left: .75em;
+      padding-right: .75em;
+      }
+      .card-registration .select-arrow {
+      top: 13px;
+      }
+    

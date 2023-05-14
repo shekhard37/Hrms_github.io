@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "Issue": "Leave Issue",
+      "ComplainId": "#JB1011",
+      "Date": "12/10/2022",
+      "empId": "Id123"
+      
+    },
+    {
+        "id": 2,
+        "Issue": "Salary Issue",
+        "ComplainId": "#JB1012",
+        "Date": "20/08/21",
+        "empId": "Id233"
+    },
+    {
+      "id": 3,
+      "Issue": "Pf Issue",
+      "ComplainId": "#JB1012",
+      "Date": "07/12/19",
+      "empId": "Id233"
+    },
+    {
+      "id": 4,
+      "Issue": "Leave Issue",
+      "ComplainId": "#JB1012",
+      "Date": "21/08/22",
+      "empId": "Id233"
+    },
+    {
+      "id": 5,
+      "Issue": "Sofware Developer",
+      "ComplainId": "#JB1012",
+      "Date": "21/08/22",
+      "empId": "Id233"
+    }
+ ]
